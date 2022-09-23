@@ -10,16 +10,20 @@ const Footer = () => {
             <h1><strong className="text-white">Developers</strong></h1>
           </Typography>
           <Stack direction="row" spacing={2}>
-            <Typography variant='h5' pb="40px">
-              <strong className="text-white-50">Dominick P. Salazar</strong>
-              <br/>
-              <a href='#'>dominicksalazar788@yahoo.com    </a>
-            </Typography>
-            <Typography variant='h5' pb="40px">
-              <strong className="text-white-50">Mark Joseph N. Destriza</strong>
-              <br/>
-              <a href='#'>mmjdestriza@gmail.com</a>
-            </Typography>
+            <Box>
+              <Typography variant='h5' pb="40px">
+                <strong className="text-white-50">Dominick P. Salazar</strong>
+                <br/>
+                <a href='#'>dominicksalazar788@yahoo.com    </a>
+              </Typography>
+            </Box>
+            <Box>
+              <Typography variant='h5' pb="40px">
+                <strong className="text-white-50">Mark Joseph N. Destriza</strong>
+                <br/>
+                <a href='#'>mmjdestriza@gmail.com</a>
+              </Typography>
+            </Box>
           </Stack>
           
         </Stack>   
