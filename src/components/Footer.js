@@ -12,7 +12,7 @@ const Footer = () => {
           <Typography variant='h5' pb="40px" className="d-flex flex-row">
             <strong className="text-white-50">Dominick P. Salazar</strong>
             <br/>
-            <a href='#'>dominicksalazar788@yahoo.com</a>
+            <a href='#'>dominicksalazar788@yahoo.com    </a>
             <strong className="text-white-50">Mark Joseph N. Destriza</strong>
             <br/>
             <a href='#'>mmjdestriza@gmail.com</a>
