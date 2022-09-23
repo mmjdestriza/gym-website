@@ -9,7 +9,7 @@ const Footer = () => {
         <Typography variant='h5' pb="40px" mt="40px">
             <h1><strong className="text-white">Developers</strong></h1>
           </Typography>
-          <Stack direction="row" spacing={2}>
+          <Stack direction="row" spacing={5}>
             <Box>
               <Typography variant='h5' pb="40px">
                 <strong className="text-white-50">Dominick P. Salazar</strong>
