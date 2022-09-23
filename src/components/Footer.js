@@ -5,8 +5,6 @@ import Logo from '../assets/images/Logo-1.png'
 const Footer = () => {
   return (
     <Box mt="80px" bgcolor="#424242">
-    <Stack direction="row" gap="2">
-      <Box>
         <Stack gap="40px"  alignItems='center' px="50px" pt="10px">
         <Typography variant='h5' pb="40px" mt="40px">
             <h1><strong className="text-white">Developers</strong></h1>
@@ -20,11 +18,7 @@ const Footer = () => {
             <br/>
             <a href='#'>mmjdestriza@gmail.com</a>
           </Typography>      
-        </Stack>
-      </Box>      
-    </Stack>
-    
-
+        </Stack>   
     </Box>
   )
 }
