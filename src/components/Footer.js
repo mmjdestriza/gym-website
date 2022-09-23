@@ -1,0 +1,32 @@
+import React from 'react';
+import { Box, Stack, Typography } from '@mui/material';
+
+import Logo from '../assets/images/Logo-1.png'
+const Footer = () => {
+  return (
+    <Box mt="80px" bgcolor="#424242">
+    <Stack direction="row" gap="2">
+      <Box>
+        <Stack gap="40px"  alignItems='center' px="50px" pt="10px">
+        <Typography variant='h5' pb="40px" mt="40px">
+            <h1><strong className="text-white">Developers</strong></h1>
+          </Typography>
+          <Typography variant='h5' pb="40px">
+            <strong className="text-white-50">Dominick P. Salazar</strong>
+            <br/>
+            <a href='#'>dominicksalazar788@yahoo.com</a>
+            <hr className='text-white'/>
+            <strong className="text-white-50">Mark Joseph N. Destriza</strong>
+            <br/>
+            <a href='#'>mmjdestriza@gmail.com</a>
+          </Typography>      
+        </Stack>
+      </Box>      
+    </Stack>
+    
+
+    </Box>
+  )
+}
+
+export default Footer
